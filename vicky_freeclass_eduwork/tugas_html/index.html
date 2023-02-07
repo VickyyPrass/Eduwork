@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas HTML</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        nav{
+            margin: 10px;
+        }
+
+        .header-image{
+            background-color: rgb(108, 147, 231);
+        }
+
+        .header-image img{
+            width: 100%;
+            height: 400px;
+        }
+
+        .container{
+            width: 80%;
+            margin: 20px auto;
+            display: flex;
+            flex-direction: row;
+            gap: 10%;
+
+        }
+
+        main{
+            width: 50%;
+
+        }
+        
+        main article .line{
+            width: 200px;
+            height: 2px;
+            background-color: #000;
+            margin-top: 10px;
+        }
+
+        aside{
+            width: 30%;
+        }
+        
+        aside .box-aside{
+            background-color: rgb(230, 149, 43);
+            width: 90%;
+            height: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        footer{
+            background-color: rgb(150, 235, 52);
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <center>
+                <table cellspacing="20" cellpadding="30"> 
+                    <tr>
+                        <td>Menu 1</td>
+                        <td>Menu 2</td>
+                        <td>Menu 3</td>
+                        <td>Menu 4</td>
+                    </tr>
+                </table>
+            </center>
+        </nav>
+    </header>
+
+    <div class="header-image">
+        <img src="img/International_Pokémon_logo.png" alt="pokemon">
+    </div>
+
+    <div class="container">
+        <main>
+            <article>
+                <h2>This is title</h2>
+                <div class="line"></div>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dolorum distinctio, accusantium alias, qui rerum nisi in magnam a cumque consequatur quo asperiores dolor debitis nostrum quidem quisquam fugiat iure veniam necessitatibus unde vitae voluptas enim? Culpa aut nobis illum, iusto ut inventore expedita, quas nulla tempore maxime adipisci quos temporibus totam sunt blanditiis, odit magni id. Officiis facere aperiam, consequatur quidem porro quae, cumque laudantium molestiae magni alias dolore ducimus consequuntur, adipisci dolores exercitationem? Alias ducimus asperiores, modi sapiente tempore, vitae facilis veniam magnam error voluptatibus magni provident, debitis doloribus at doloremque sint aliquam dignissimos dicta. Ipsam, ad cumque?
+                </p>
+            </article>
+        </main>
+
+        <aside>
+            <br>
+            <div class="box-aside">
+                <h2>This is sidebar...</h2>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <h2>This is footer....</h2>
+    </footer>
+</body>
+</html>

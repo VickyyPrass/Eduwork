@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font: 14px sans-serif;
+}
+
+section.container{
+    width: 60%;
+    margin: 40px auto;
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+.big-image img{
+    width: 100%;
+}
+
+.card-form{
+    width: 50%;
+}
+
+.card-login,.card-register{
+    border: solid 1px #e4e2e2;
+    border-radius: 3px;
+    text-align: center;
+    background-color: white;
+    padding: 30px 0 20px;
+}
+
+.card-login form input{
+    width: 75%;
+    height: 30px;
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid #e4e2e2;
+    background-color: #fafafa;
+    margin: 5px;
+}
+
+.card-login form .btn-login{
+    background-color: #4DB5F9;
+    line-height: 18px;
+    width: 79%;
+    height: 35px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.line-card {
+    color: #8e8e8e;
+    font-size: 14px;
+}
+
+.other-login a{
+    display: block;
+    margin: 20px 0;
+    text-decoration: none;
+    color: #385185;
+} 
+
+.card-register{
+    margin: 20px 0;
+}
+
+.card-register a{
+    margin: 20px 0;
+    text-decoration: none;
+    color: #4DB5F9;
+}
+
+.card-download{
+    text-align: center;
+    background-color: white;
+}
